@@ -1,0 +1,174 @@
+body{
+    background-color: #EDEDED;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+
+.sub_header
+{
+    font-size: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+
+/*
+  Style that contains all divs on page
+*/
+#all
+{
+    position:fixed;
+    width: 804px;
+    height: 656px;
+    overflow: hidden;
+}
+
+
+#dk
+{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+#menu
+{
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+
+.page_link
+{
+    text-decoration: none;
+    color: #808080;
+    font-size: 32px;
+    padding-bottom: -5px;
+    padding-top: -5px;
+}
+
+/* 
+   social icons
+*/
+ul.social {
+    margin-left:-35px;
+}
+
+ul.social li {
+    display:inline-block;
+    list-style-type: none;
+}
+
+ul.social li span {
+    display: block;
+    height:50px;
+    weight:50px;
+    padding-left:2px;
+    padding-right:2px;
+}
+
+.facebook
+{
+    background:url(images/fb_icon.png);
+    background-repeat:no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin
+{
+    background:url(images/in_icon.png);
+    background-repeat:no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.github
+{
+    background:url(images/github_icon.png);
+    background-repeat:no-repeat;
+    width: 50px;
+    height: 50px;
+} 
+
+
+
+/*
+  Styling for content 
+*/
+#all_content
+{
+    width: 400px;
+    height: 652px;
+    margin-top: -1px;
+    overflow-y:scroll;
+}
+
+.content
+{
+    display:none;
+}
+
+.content_img
+{
+    padding: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.content a:link
+{
+   COLOR: #000000;
+}
+
+/*
+  Specific styling for about page
+*/
+#about_title
+{
+    font-size: 36px;
+}
+
+
+#profile_img
+{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*
+  Specific styling for engineering/professional page
+*/
+.companies
+{
+    width: 33.3333%;
+    float: left;
+    margin-left:-2px;
+}
+
+.company_logo
+{
+    width: 100%;
+}
+.company_role
+{
+    width: 100%;
+}
+
+.company_role_header
+{
+    text-align:center;
+    font-size: 18pt;
+}
+
+#eng_header
+{
+    overflow:auto; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}

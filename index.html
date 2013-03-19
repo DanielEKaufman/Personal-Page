@@ -1,0 +1,271 @@
+<!doctype html>
+<head>
+  <title>Dan Kaufman</title>
+  <meta chatset="utf-8">
+  <link rel="shortcut icon" href="images/dk.ico" >
+  <link rel="stylesheet" href="index.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  <script src="processing-1.4.1.min.js"></script>   
+  <script src="index.js"></script>
+</head>
+<body>
+  <div id = "all">
+    <div id = "all_content">
+      <div id = "about" class = "content">
+        <div id = "about_content_text">
+          <div id = "profile_img">
+            <img src="images/dan_face.png" width=100%>
+          </div>
+          <h1>About</h1>
+          My name is Dan Kaufman.  I seek challenges and problems to solve.  I have 
+          found that computer science and nature offer a multitude of opportunities 
+          for both.
+          <br>
+          <br>
+          In December 2011, I graduated from the <a href="http://cs.illinois.edu/" target="_blank">University of Illinois (UIUC)</a> with 
+          a degree in Computer Science.  I now live in San Francisco where I have been 
+          working on some side projects and exploring roles that ride the line 
+          between product and engineering.
+          <br>
+        </div>
+      </div>
+      <div id = "projects" class = "content">
+        <h1>Professional Background</h1>
+        <div id = "eng_header">
+          <div id = "trialpay" class = "companies">
+            <div id = "trialpay_logo" class = "company_logo">
+              <a href="http://www.trialpay.com/"><img src="images/trialpay_clear.png" width="100%"></a>
+            </div>
+            <div id = "trialpay_role" class = "company_role">
+              <div class = "company_role_header">Software Engineer</div>
+            </div>
+          </div>
+
+          <div id = "microsoft" class = "companies">
+            <div id = "microsoft_logo" class = "company_logo">
+              <a href="http://www.microsoft.com/"><img src="images/microsoft_clear.png" width="100%"></a>
+            </div>
+            <div id = "microsoft_role" class = "company_role">
+              <div class ="company_role_header">Program Management Intern</div>
+            </div>
+          </div>
+
+          <div id = "statefarm" class = "companies">
+            <div id = "statefarm_logo" class = "company_logo">
+              <a href="http://www.statefarm.com/"><img src="images/statefarm_clear.png" width="100%"></a>
+            </div>
+            <div id = "statefarm_role" class = "company_role">
+              <div class = "company_role_header">Systems Intern</div>
+            </div>
+          </div>
+        </div>
+        <h1>Fun Projects</h1>
+        <hr>
+        <div class = "sub_header">Location-Based Messaging</div>
+        <hr>
+        <p1>
+          This iPhone app will allow users to leave virtual content at a specific
+          GPS locations and deliver it when the recipient arrives at the location. 
+          Some potential uses include: leaving a comment or pictures, creating interactive 
+          tours, or leaving a digital gift for a friend to find. Currently, 
+          I have built out the core functionality, location-based notifications. 
+          Next steps include building a user interface that allows users to leave 
+          and receive content, adding authentication, and optimization of the 
+          location-based features.
+        </p1>
+        <hr>
+        <div class = "sub_header">To-do List with Node and Websockets</div>
+        <hr>
+        <img src="images/todo_list.png" class="content_img" width="650px" height="175px">
+        <p1>
+          This app allows users to create a to-do list that updates in real-time 
+          for all users. Users are able to add and remove items, as well as easily
+          share it with their friends. This initial version gave me an opportunity 
+          learn more about Node.js and the Websockets protocol.  In the future,  
+          I plan to add a Facebook authenticated login and updated design.
+        </p1>
+        <hr>
+        <div class = "sub_header">Text Message Data Visualization</div>
+        <hr>
+        <a href="https://github.com/DanielEKaufman/iPhoneBackupDataAccess">
+          <img src="images/TextViz.png" class="content_img" width="650px" height="425px"></a>
+        <p1>
+          Accessing the backup data from an iPhone isn't the most straightforward 
+          thing in the world.  After tracking down the correct SQLite files, I 
+          was able to figure out how the tables are joined and I have created 
+          functions to access this information.  Thus far I have only examined trends 
+          using graphing capabilities of Excel, but it is definitely interesting to 
+          see how friendships evolve in terms of text message frequency.
+        </p1>
+        <hr>
+        <div class = "sub_header">Data Visualization Project for Art 299</div>
+        <hr>
+        <a href="http://www.danielekaufman.com/Sandbox/Art299/">
+          <img src="images/Art299.png" class="content_img" width="650px" height="425px"></a>
+        <p1>
+          I made this visualization as part of a group project that focused on designing
+          a tool that helped a user create effective groups based on self-determined skills. 
+          I created the application with <a href="http://processing.org/">Processing</a> and used 
+          <a href="http://processingjs.org/">ProcessingJS</a> to display it on an HTML5 canvas.
+        </p1>
+        <hr>
+        <div class = "sub_header">Augmented Social Networking</div>
+        <hr>
+        <img src="images/AugmentedSocialNetworking.jpg" class="content_img" width="650px" height="450px"> 
+        <p1>
+          This is an Android application that allows a user to hold a phone up to the face
+          of someone who has opted into the program, and it will display the name above 
+          the picture of the person in real-time video. This was built during the Facebook 
+          Hackathon Fall 2011. The team included myself, 
+          <a href="http://www.facebook.com/profile.php?id=1148280035" target="_blank">Jared Lambert</a>, 
+          <a href="http://www.facebook.com/profile.php?id=1146720980" target="_blank">Caroline Schafer</a>, and 
+          <a href="http://www.facebook.com/seanadams9" target="_blank">Sean Adams</a>.
+        </p1>
+        <hr>
+        <div class = "sub_header">Social Cal (No Longer Maintained)</div>
+        <hr>
+        <img src="images/SocialCal.png" class="content_img" width="650px" height="353px">
+        <p1>
+          This application allowed users to view, create, and delete their Facebook events in a calendar format.
+          I was in charge of the Facebook integration and built a number of different classes to interact with 
+          one of the first versions of the Facebook API. The calendar began as a project for CS 242 - Programming Studio built by myself, 
+          <a href="http://www.facebook.com/profile.php?id=1148280035" target="_blank">Jared Lambert</a>, 
+          <a href="http://www.facebook.com/profile.php?id=1146720980" target="_blank">Caroline Schafer</a>, and 
+          <a href="http://www.facebook.com/seanadams9" target="_blank">Sean Adams</a>.
+        </p1>
+        <hr>
+        <div class = "sub_header">Illinois Engineering EXPO Site</div>
+        <hr>
+        <a href=" http://strong-sky-71.heroku.com/" class="content_img" target="_blank"><img src="images/Expo.png" class="content_img" width="650px" height="353px"></a>
+        <p1>
+          This prototype was a project for CS465 - Principles of User Interface Design, Implementation and Evaluation. 
+          The group that worked on this project included myself, 
+          <a href="https://www.facebook.com/choxi" target="_blank">Roshan Choxi</a>, 
+          <a href="https://www.facebook.com/aschmitz" target="_blank">Andy Schmitz</a>, and 
+          <a href="https://www.facebook.com/Mike.Kuchenbecker" target="_blank">Mike Kuchenbecker</a>. 
+          The purpose of the project was primarily focused on the process of user interface design, rather than the 
+          actual implementation of the application.
+        </p1>
+        <hr>
+        <div class = "sub_header">Waitlist Application</div>
+        <hr>
+        <p1>
+          This application was created by myself,           
+          <a href="http://www.facebook.com/profile.php?id=1148280035" target="_blank">Jared Lambert</a>, and 
+          <a href="http://www.facebook.com/seanadams9" target="_blank">Sean Adams</a> during the Facebook Hackathon 
+          2010 at Illinois. The application helped students at the University of Illinois get into classes currently
+          full by monitoring course registration system. Students were able to enter the course number of the desired 
+          class and receive email notifications as soon as another student dropped the course.
+        </p1>
+      </div>
+      <div id = "adventure" class = "content">
+        <a id="adventure_hit"></a><h1>Adventures</h1>
+        Despite growing up in <a href="http://goo.gl/maps/xsHVR" target="_blank">Danvers, IL</a>, 
+        surrounded by cornfields, I developed a love for the mountains. Whether I am 
+        climbing up them, skiing down them, or biking on them, some of the happiest 
+        moments of my life have been in the mountains. The following are some of my adventures.
+        <hr>
+        <div class = "sub_header">Ouray Ice Fest - Jan 2013</div>
+        <hr>
+        <p1>
+          The <a href="http://ourayicepark.com/ice-festival/" target="_blank">Ouray Ice Fest</a> 
+          The Ouray Ice Fest is one of my favorite extreme sports festivals. Complete with
+          parties, presentations, hot springs, and, of course, hours of ice climbing, it's
+          hard to beat. Having attended the Ouray Ice Fest twice before, my friends and 
+          I decided to change things up this year. Instead of cramming 6 people into one 
+          hotel room, as we had in the past, we decided to rent a condo for the weekend. 
+          While the cost is slightly more, I definitely recommend this option for the future. 
+          <img src="images/ouray_ice_2013_bridge.png" class="content_img" height="80%">
+          This is one of the main bridges that crosses the canyon. Gravity fed water pipes 
+          line nearly a mile of the canyon rim and provide water for the ice generation. 
+          Every night, between the hours of 4pm and 8am, water runs through 150 shower, 
+          heads adding a fresh layer of ice. 
+          <img src="images/ouray_ice_2013_climbing.png" class="content_img" height="80%">
+          On the route above, we had to belay from the top because the wall was too tall 
+          for our ropes. Jason set up a <a href="http://www.youtube.com/watch?v=7NrsNhmf3rQ">
+            top belay</a> that was a little more complex, but very effective. Since we were 
+          belaying from the top, we had to be lowered into the canyon, then climb out. 
+          Unsure of what waited below, and with all climbing companions waiting above, it 
+          was one of the most nerve wracking climbs I have done.
+          <img src="images/ouray_ice_2013_temp.png" class="content_img" height="80%">
+          Obviously for an ice festival it would have to be really cold, but lacing on 
+          your boots at dawn with the temperature of -6 is very unpleasant. 
+          <img src="images/ouray_ice_2013_puffy.png" class="content_img" height="80%">
+          Nearly every major brand in outdoor adventure gear is represented at the ice fest,
+          bringing with them their latest and greatest gear.  Everything from crampons to 
+          ice tools, and coats to backpacks may be demoed. I decided to demo a very, very 
+          warm Rab puffy, which definitely helped to keep me warm. 
+          <img src="images/ouray_ice_2013_friends_1.png" class="content_img" height="80%">
+          While I love climbing and being outside, one of the main reasons I go on adventures 
+          like this is the chance to spend time with friends.
+        </p1>
+        <hr>
+        <div class = "sub_header">Mount Shasta - June 2012</div>
+        <hr>
+        <p1>
+          One of my close friends, <a href="https://www.facebook.com/benj.ritter" target="_blank">Ben Ritter</a>
+          , and I have  some mountaineering experience, but this trip opened our eyes 
+          to a number of other things that we were not prepared 
+          for.  First of all, how to rescue each other in the event that one of us fell 
+          into a crevasse.  Fortunately this didn&#39;t happen, but it is important to be prepared.
+          Below is one of the diagrams that we found to help explain the proper setup.  Keep in 
+          mind that while you are setting that up, the person in the crevasse is hanging from your 
+          harness and pulling you in.
+          <img src="images/two_person_rescue.png" class="content_img" height="80%">
+          <img src="images/shasta_base.png" class="content_img" height="80%">
+          The weather looked pretty good, but there was a forecast for high winds.  We
+          decided to try and go for it regardless.
+          <img src="images/shasta_tent.png" class="content_img" height="80%">
+          We reached 10,000 feet by about 6 pm and began to set up our campsite. The 
+          wind was blowing very hard so we found a large boulder to shelter us from 
+          the wind. When that proved insufficient, we decided to build a snow wall 
+          to provide further protection. After cooking a quick dinner, we got ready for 
+          bed around 8 pm, with our alarms set for an alpine start at 2 am. Shivering 
+          in our sleeping bags, hoping that the seams on the tent would hold, we spent
+          the next 6 hours with less than 15 minutes of sleep. Due to the strong winds 
+          we decided to postpone our start till 3 am. We emerged from our tent only to 
+          see the winds ripping over the corniced summit. After little deliberation, we 
+          opted to play it safe and pass on our summit attempt. After a short nap we 
+          packed up our site, and glissaded down the glacier, heading for the car.
+        </p1>
+      </div>
+    </div>
+    <div id = "menu">
+      <div id = "dk">
+        <canvas data-processing-sources="dk.pde"></canvas>
+      </div>
+      <div id = "links">
+        <div class="page_link">Dan Kaufman</div>
+        <hr>
+        <a href="#" id="about_link" class="page_link" OnClick='change_content("#about");'>About</a>
+        <hr>
+        <a href="#" id="projects_link" class="page_link" OnClick='change_content("#projects")';>Projects</a>
+        <hr>
+        <a href="#" id="adventure_link" class="page_link" OnClick='change_content("#adventure")';>Adventures</a>
+        <hr>
+        <ul class = "social">
+          <li>
+              <a href="http://www.facebook.com/danielekaufman" target="_blank"><span class="facebook"></span></a>
+          </li>
+          <li>
+            <a href="http://www.linkedin.com/in/dkaufman/" target="_blank"><span class="linkedin"></span></a>
+          </li>
+          <li>
+            <a href="https://github.com/DanielEKaufman" target="_blank"><span class="github"></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    var target = $(this); 
+    $(document).ready = init(target);
+
+    $(window).resize(function() {
+    resize_all();
+    });
+  </script>
+  
+</body>
+</html>
